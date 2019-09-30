@@ -1,3 +1,35 @@
+This is a read me file for the project named “comparison of lle and pca on local features for lung disease image retrieval”
+
+### Pre-Requisites to run the project:
+1.	Python 3
+2.	Tensorflow for python
+3.	Keras for python
+4.	Opencv for python
+5.	Scikit image for python
+6.	Cv2 for python
+7.	Pandas, numpy, matplot for python
+8.	Jupyter notebook to view the project
+
+### Instructions to execute the project (outputs can also be viewed without executing):
+
+1.	Open Jupyter notebook using anaconda or terminal
+2.	Go to the folder containing this project using Jupyter home.
+3.	Open the below two files to view the outputs
+4.	To execute the PCA version run the file named “CBIRloadModel.ipynb”
+5.	To execute the LLE version run the file named “CBIRloadModel_lle.ipynb”
+Note: change the paths in the notebook to your system paths.
+
+While these two files are sufficient to execute the project and view the final results, to know how the machine learning models and csv files with features are generated, the below steps are to be followed.
+
+### The project contains 6 different files to executed serially as shown in the below sequence:
+
+6.	Cbir_lbp3.ipynb
+7.	Cbir_orb.ipynb
+8.	orb_lbpPatched_neuralNetworkCBIR_change2.ipynb
+9.	orb_lbpPatched_neuralNetworkCBIR_change3_LLE.ipynb
+10.	CBIRloadModel_lle.ipynb
+11.	CBIRloadModel.ipynb
+
 ## I. INTRODUCTION
 
 We have taken the dataset from Kaggle. The dataset is
