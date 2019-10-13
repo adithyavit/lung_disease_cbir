@@ -1,5 +1,9 @@
 This is a read me file for the project named “comparison of lle and pca on local features for lung disease image retrieval”
 
+### checking the output
+open the files CBIRloadModel_lle_last_minute.ipynb to look at lle version of project outputs.
+open the files CBIRloadModel_pca_last_minuteVer2.ipynb to look at pca version of the project outputs.
+
 ### Pre-Requisites to run the project:
 1.	Python 3
 2.	Tensorflow for python
